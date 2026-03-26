@@ -2,7 +2,7 @@ package com.nt.interview;
 
 public class MaxSubArraySum {
 	public static void main(String[] args) {
-		int[] arr = { 5, -4, 3, 0, -2, -1 };
+		int[] arr = { 5, 4, -3, 0, -2, -1 };
 		findMaxSubarraySum(arr);
 	}
 
@@ -13,6 +13,14 @@ public class MaxSubArraySum {
 		for (int i = 1; i < arr.length; i++) {
 			currentSum = Math.max(arr[i], currentSum + arr[i]);
 			maxSum = Math.max(maxSum, currentSum);
+
+			/*
+			currentSum += arr[i];
+			if (currentSum < arr[i])
+				currentSum = arr[i];
+			if (currentSum > maxSum)
+				maxSum = currentSum;
+			*/
 		}
 
 		System.out.println(maxSum);
