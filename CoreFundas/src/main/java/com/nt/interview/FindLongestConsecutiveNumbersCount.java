@@ -1,10 +1,8 @@
 package com.nt.interview;
 
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.TreeSet;
 
 /*
  * Find consecutive numbers maximum count
@@ -15,12 +13,12 @@ import java.util.TreeSet;
 public class FindLongestConsecutiveNumbersCount {
 
 	public static void main(String[] args) {
-		
+
 		int[] arr = { 1, 2, 3, 201, 202, 203, 4, 300, 5, 400 };
 		// Brute Force approach
 		maxConsecutiveCount(arr);
-		
-		//Optimized Approach
+
+		// Optimized Approach
 		findMaxConsecutiveCount(arr);
 
 	}
@@ -37,8 +35,9 @@ public class FindLongestConsecutiveNumbersCount {
 			if (!set.contains(num - 1)) {
 				int current = num;
 				int count = 1;
-				// Check next consecutive number is available if yes, increase the count and counter too 
-				//to check the next consecutive numbers availability
+				// Check next consecutive number is available if yes, increase the count and
+				// counter too
+				// to check the next consecutive numbers availability
 				while (set.contains(current + 1)) {
 					count++;
 					current++;
