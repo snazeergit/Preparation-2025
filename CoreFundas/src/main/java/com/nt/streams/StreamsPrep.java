@@ -15,6 +15,7 @@ public class StreamsPrep {
 	public static void main(String[] args) {
 
 		List<Employee> empList = Employee.getEmpList();
+		//comment
 
 		Map<String, List<Employee>> map = empList.stream().filter(e -> e.getSalary() > 1000)
 				.collect(Collectors.groupingBy(Employee::getDept_Name)).entrySet().stream()
