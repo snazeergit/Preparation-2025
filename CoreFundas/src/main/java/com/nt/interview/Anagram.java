@@ -15,19 +15,14 @@ public class Anagram {
 	}
 
 	private static boolean findAnagram(String s1, String s2) {
-		//converting String to char[]
+		// converting String to char[]
 		char[] c1 = s1.toCharArray();
 		char[] c2 = s2.toCharArray();
-		
-		//sorting the char[]
+
+		// sorting the char[]
 		Arrays.sort(c1);
 		Arrays.sort(c2);
-		
-		//converting char[] to String
-		s1 = new String(c1);
-		s2 = new String(c2);
 
-		//returns true if s1 and s2 contains same String
-		return s1.equals(s2);
+		return Arrays.equals(c1, c2);
 	}
 }
