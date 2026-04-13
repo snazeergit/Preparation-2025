@@ -6,7 +6,7 @@ import java.util.Comparator;
 /*
  * Arrange them in Ascending order based on String length
  */
-public class StringSorting {
+public class StringLengthBasedSorting {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

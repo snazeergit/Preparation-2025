@@ -6,7 +6,7 @@ import java.util.Set;
 
 /*
  * Find consecutive numbers maximum count
- * input= {1,2,3,201,202,203,4,300,400};
+ * input= {1,2,3,201,202,203,4,300,5,400};
  * output=5
  * 1,2,3,4,5 are the max no of consecutive numbers in array
  */
@@ -36,8 +36,7 @@ public class FindLongestConsecutiveNumbersCount {
 				int current = num;
 				int count = 1;
 				// Check next consecutive number is available if yes, increase the count and
-				// counter too
-				// to check the next consecutive numbers availability
+				// counter too to check the next consecutive numbers availability
 				while (set.contains(current + 1)) {
 					count++;
 					current++;
