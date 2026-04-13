@@ -3,7 +3,7 @@ package com.nt.strings;
 import java.util.ArrayList;
 import java.util.List;
 
-public class VirtusaTest {
+public class TestBed {
 
 	public static void main(String[] args) {
 		int[] arr = { 4, 7, 8, 10, 15 };
