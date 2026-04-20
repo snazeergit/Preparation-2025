@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+import com.nt.util.Employee;
+
 /*
  * Fetch top 2 departments having more than 1 employee
  * with salary > 1000, sorted by employee count descending.
