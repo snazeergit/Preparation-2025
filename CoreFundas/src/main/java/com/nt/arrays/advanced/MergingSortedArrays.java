@@ -1,7 +1,10 @@
-package com.nt.arrays.sorting;
+package com.nt.arrays.advanced;
 
 import java.util.Arrays;
 
+/*
+ * Merge the two sorted arrays into one.
+ */
 public class MergingSortedArrays {
 
 	public static void main(String[] args) {

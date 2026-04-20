@@ -1,4 +1,4 @@
-package com.nt.arrays.duplicateHandling;
+package com.nt;
 
 import java.util.Arrays;
 

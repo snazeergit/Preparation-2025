@@ -1,4 +1,4 @@
-package com.nt.arrays.other;
+package com.nt.arrays.advanced;
 
 import java.util.Arrays;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package com.nt.arrays.basicOperations;
+package com.nt.arrays.intermediate;
 
 import java.util.Arrays;
 

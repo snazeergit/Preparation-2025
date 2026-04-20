@@ -1,4 +1,4 @@
-package com.nt.arrays.basicOperations;
+package com.nt.arrays.basic;
 
 import java.util.Arrays;
 import java.util.HashMap;

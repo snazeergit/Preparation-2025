@@ -1,4 +1,4 @@
-package com.nt.arrays.other;
+package com.nt.arrays.intermediate;
 
 import java.util.ArrayList;
 import java.util.List;
