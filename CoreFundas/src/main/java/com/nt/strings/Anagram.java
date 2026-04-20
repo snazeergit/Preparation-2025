@@ -1,4 +1,4 @@
-package com.nt.interview;
+package com.nt.strings;
 
 import java.util.Arrays;
 

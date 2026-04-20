@@ -1,4 +1,4 @@
-package com.nt.interview;
+package com.nt.strings;
 
 /*
  * Reverse the String by preserving the numbers and special characters positions.

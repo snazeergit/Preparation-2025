@@ -1,4 +1,4 @@
-package com.nt.interview;
+package com.nt.strings;
 
 /*
  * Find out if the given string is rotation of another String

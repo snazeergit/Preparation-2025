@@ -1,4 +1,4 @@
-package com.nt.interview;
+package com.nt.arrays.other;
 
 import java.util.Arrays;
 import java.util.Set;
@@ -10,7 +10,7 @@ import java.util.stream.IntStream;
  * Input={1,2,2,4,5,6,6,2,1,8};
  * Output={3,7}
  */
-public class MissingNumber {
+public class MissingNumbers {
 	public static void main(String[] args) {
 		int[] ar = { 1, 2, 2, 4, 5, 6, 6, 2, 1, 8 };
 
