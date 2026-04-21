@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class AnagramGroup {
 	public static void main(String[] args) {
-		String[] strArr = { "abc", "bca", "cab", "cbi", "ci", "sbi", "bis", "icb" };
+		String[] strArr = { "bca", "abc", "cab", "cbi", "ci", "sbi", "bis", "icb" };
 		List<List<String>> anagramGroups = findAnagramGroups(strArr);
 		System.out.println(anagramGroups);
 	}
@@ -25,7 +25,9 @@ public class AnagramGroup {
 			}
 			map.get(sorted).add(str);
 		}
-
+		System.out.println(map);
 		return new ArrayList<>(map.values());
 	}
 }
+
+//array-> string sort  map->key

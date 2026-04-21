@@ -19,6 +19,7 @@ public class SumOfTwoElementsEqualOrCloseToK {
 		int left = 0, right = arr.length - 1;
 		int res_l = 0, res_r = 0;
 		int dif = Integer.MAX_VALUE;
+		
 		while (left < right) {
 			if (arr[left] + arr[right] == k) {
 				res_l = left;
